@@ -1,1 +1,43 @@
+ion-content {
+    --ion-background-color: #15202b !important;
 
+    .justify-content-center {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .vh-75 {
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .home-title {
+            font-weight: 700;
+            color: #fff;
+        }
+
+        ion-button {
+            --ion-color-primary: #1da1f2 !important;
+        }
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        
+        small {
+            color: #e4e4e4;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.twitter-primary {
+    color: #1da1f2;
+}
+
+.bg-twitter-primary {
+    background-color: #1da1f2;
+}
