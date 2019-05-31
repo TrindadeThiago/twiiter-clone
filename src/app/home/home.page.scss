@@ -1,11 +1,5 @@
 ion-content {
-    --ion-background-color: #15202b !important;
 
-    .justify-content-center {
-        display: flex;
-        justify-content: center;
-    }
-    
     .vh-75 {
         height: 75vh;
         display: flex;
@@ -34,10 +28,3 @@ ion-content {
     }
 }
 
-.twitter-primary {
-    color: #1da1f2;
-}
-
-.bg-twitter-primary {
-    background-color: #1da1f2;
-}
